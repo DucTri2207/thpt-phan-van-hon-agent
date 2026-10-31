@@ -1,0 +1,58 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+
+# Editors and operating systems
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+Desktop.ini
+~$*
+
+# Node / frontend
+node_modules/
+dist/
+.vite/
+*.tsbuildinfo
+coverage/
+playwright-report/
+test-results/
+
+# Java / Maven
+target/
+*.class
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Logs, runtime data and model artifacts
+*.log
+logs/
+tmp/
+uploads/
+backups/
+/data/private/
+/data/raw/
+/data/runtime/
+/infra/volumes/
+checkpoints/
+*.pt
+*.pth
+*.safetensors
+*.onnx
